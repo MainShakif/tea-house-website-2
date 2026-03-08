@@ -41,7 +41,7 @@
           Satisfaction To Your Taste Buds.
         </p>
         <button
-          class="py-3 px-5 rounded-lg text-white bg-linear-to-r from-[#FF8938] to-[#FF0000] outline-0"
+          class="py-3 px-5 rounded-lg text-white bg-linear-to-r from-[#FF8938] to-[#FF0000] outline-0 cursor-pointer"
         >
           Explore More
           <span class="-rotate-45 inline-block">
@@ -190,7 +190,9 @@
             humour, or randomised words which don't look even slightly
             believable.
           </p>
-          <button class="bg-white px-[25px] py-2.5 rounded-[15px]">
+          <button
+            class="bg-white px-[25px] py-2.5 rounded-[15px] cursor-pointer"
+          >
             <span
               class="rounded-md bg-linear-to-r from-[#ff0000] to-[#ff8938] bg-clip-text text-transparent"
             >
@@ -329,5 +331,80 @@
         </div>
       </div>
     </section>
+
+    <!-- footer section -->
+    <!-- bg-linear-to-r from-orange-100 to-red-50  -->
+    <footer class="bg-linear-to-r from-orange-100 to-red-50">
+      <div class="w-[80%] mx-auto p-[90px]">
+        <div class="footer-top grid grid-cols-1 md:grid-cols-2 gap-10 mb-20">
+          <figure>
+            <img src="./images/cup.png" alt="" />
+          </figure>
+          <div class="flex justify-between items-center">
+            <p>Ready to get strated?</p>
+            <button
+              class="py-3 px-5 rounded-lg text-white bg-linear-to-r from-[#FF8938] to-[#FF0000] outline-0 cursor-pointer"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div
+          class="footer-middle grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px] mb-10"
+        >
+          <div class="space-y-3">
+            <h3 class="font-bold text-xl">Quick Links</h3>
+            <ul class="space-y-2">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Insurance</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="space-y-3">
+            <h3 class="font-bold text-xl">Our Services</h3>
+            <ul class="space-y-2">
+              <li>Life Insurance</li>
+              <li>Car Insurance</li>
+              <li>Health Insurance</li>
+              <li>House Insurance</li>
+            </ul>
+          </div>
+          <div class="space-y-3">
+            <h3 class="font-bold text-xl">Help</h3>
+            <ul class="space-y-2">
+              <li>PAQ</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="space-y-4">
+            <h3 class="text-[24px] text-[#1C1C1C] font-semibold">
+              Subscribe to our <br />
+              newsletter
+            </h3>
+            <div class="email-address">
+              <input
+                type="email"
+                placeholder="Email address"
+                class="border-b pb-5 outline-0"
+              />
+              <span class="bg-[#ff0000] rounded-full p-1">
+                <i class="fa-solid fa-angle-right"></i>
+              </span>
+            </div>
+            <div class="social-media flex gap-[30px] text-[#494949]">
+              <a href="https://www.facebook.com/Shakif1997" target="_blank">
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""> <i class="fa-brands fa-twitter"></i></a>
+              <a href=""> <i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <p class="footer-bottom text-center mt-20">
+          <small>© 2027 UIDesign.to - All rights reserved.</small>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
